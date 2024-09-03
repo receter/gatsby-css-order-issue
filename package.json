@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-css-order-issue",
+  "version": "1.0.0",
+  "author": "Andreas Riedmüller <andreas@simplease.at>",
+  "dependencies": {
+    "gatsby": "^4.25.9",
+    "gatsby-cli": "^4.7.0",
+    "gatsby-css-order-issue-package": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "resolutions": {
+    "graphql": "^15.4.0",
+    "graphql-compose": "^7.25.0",
+    "webpack": "^5.24.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "browserslist": [
+    ">1%",
+    "last 5 versions",
+    "Firefox ESR",
+    "not ie < 11"
+  ],
+  "devDependencies": {
+    "prettier": "2.8.8"
+  }
+}

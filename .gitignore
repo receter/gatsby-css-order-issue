@@ -1,0 +1,23 @@
+# Project dependencies
+.cache
+.idea
+node_modules
+node_modules_office
+yarn-error.log
+
+# Build directory
+/public
+/Code
+.DS_Store
+/static/public
+
+# Local Netlify folder
+.netlify
+
+# Production Environment variables
+.env.production
+
+# Editor settings
+.vscode/*
+!.vscode/settings.json.sample
+.vscoderc
